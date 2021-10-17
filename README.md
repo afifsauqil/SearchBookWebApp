@@ -68,23 +68,13 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 ```bash
 git clone https://github.com/afifsauqil/SearchBookWebApp.git
 cd SearchBookWebApp
-composer install
-copy .env.example .env
 ```
 
-2. **Buka ```.env``` lalu ubah baris berikut sesuai dengan konfigurasi database**
-```
-DB_PORT=3306
-DB_DATABASE=laravel
-DB_USERNAME=root
-DB_PASSWORD=
-```
+2. **Create Database dengan nama database 'lksprov' di local (PhpMyadmin)**
 
-3. **Create Database dengan nama database 'lksprov' di local (PhpMyadmin)**
+3. **Lalu Import Database ke localhost 'lkswilker.sql'**
 
-4. **Lalu Import Database ke localhost 'lkswilker.sql'**
-
-5. **Run the website**
+4. **Run the website**
 ```bash
 php spark serve
 ```
