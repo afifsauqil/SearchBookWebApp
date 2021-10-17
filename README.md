@@ -61,3 +61,44 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - [mbstring](http://php.net/manual/en/mbstring.installation.php)
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
 - xml (enabled by default - don't turn it off)
+
+## 💻 Install
+
+1. **Clone Repository**
+```bash
+git clone https://github.com/afifsauqil/SearchBookWebApp.git
+cd SearchBookWebApp
+composer install
+copy .env.example .env
+```
+
+2. **Buka ```.env``` lalu ubah baris berikut sesuai dengan konfigurasi database**
+```
+DB_PORT=3306
+DB_DATABASE=laravel
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+3. **Create Database dengan nama database 'lksprov' di local (PhpMyadmin)**
+
+4. **Lalu Import Database ke localhost 'lkswilker.sql'**
+
+5. **Run the website**
+```bash
+php spark serve
+```
+
+------------
+
+ ### 👤 Default Account for testing
+	
+**Admin Default Account**
+- Username: smekda
+- Password: adminsmk2
+
+**User Default Account**
+- Username: siswa
+- Password: sijasmekda
+
+------------
