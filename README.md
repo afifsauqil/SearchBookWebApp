@@ -1,3 +1,15 @@
+<h1 align="center">Halo, selamat datang di Repositori ini</h1>
+
+------------
+
+### Fitur Apa Saja Yang Tersedia di Web App Ini?
+- Autentikasi Admin, User
+- Terdapat 2 User Level
+- User Management
+- Pengelolaan Daftar Menu (Buku)
+
+------------
+
 # CodeIgniter 4 Application Starter
 
 ## What is CodeIgniter?
