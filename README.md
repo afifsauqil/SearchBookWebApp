@@ -84,7 +84,7 @@ cd SearchBookWebApp
 
 2. **Create Database dengan nama database 'lksprov' di local (PhpMyadmin)**
 
-3. **Lalu Import Database ke localhost 'lkswilker.sql'**
+3. **Lalu Import Database ke localhost 'lksprov.sql'**
 
 4. **Run the website**
 ```bash
